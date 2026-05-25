@@ -1,0 +1,616 @@
+text,type,category
+salary credited 50000,income,Salary
+received monthly salary 45000,income,Salary
+got salary this month 60000,income,Salary
+office salary credited 55000,income,Salary
+salary deposit 70000,income,Salary
+monthly salary received 48000,income,Salary
+salary transferred 52000,income,Salary
+received salary from company 65000,income,Salary
+salary paid 40000,income,Salary
+company credited salary 75000,income,Salary
+got paid salary 58000,income,Salary
+salary for this month 62000,income,Salary
+freelance payment received 12000,income,Freelance
+client sent payment 25000,income,Freelance
+freelance project done 18000,income,Freelance
+received freelance money 15000,income,Freelance
+client paid for work 30000,income,Freelance
+freelance work payment 22000,income,Freelance
+got paid for freelance 14000,income,Freelance
+client transferred project fee 20000,income,Freelance
+freelance income 16000,income,Freelance
+upwork payment received 11000,income,Freelance
+fiverr earnings 8000,income,Freelance
+bonus credited 8000,income,Bonus
+received bonus from office 10000,income,Bonus
+performance bonus paid 15000,income,Bonus
+festival bonus received 12000,income,Bonus
+annual bonus credited 20000,income,Bonus
+diwali bonus received 9000,income,Bonus
+bonus transferred by company 11000,income,Bonus
+youtube income received 10000,income,Passive Income
+passive income credited 5000,income,Passive Income
+rental income received 20000,income,Passive Income
+blog income credited 3000,income,Passive Income
+affiliate income 4000,income,Passive Income
+ad revenue received 6000,income,Passive Income
+earned stock profit 7000,income,Investment
+received stock dividend 3000,income,Investment
+mutual fund returns 8000,income,Investment
+investment returns credited 12000,income,Investment
+stock market profit 9000,income,Investment
+sip returns received 5000,income,Investment
+shares sold profit 14000,income,Investment
+received cashback 500,income,Cashback
+cashback credited to account 300,income,Cashback
+got cashback on purchase 200,income,Cashback
+credit card cashback 450,income,Cashback
+amazon cashback received 150,income,Cashback
+paytm cashback credited 100,income,Cashback
+cashback on shopping 250,income,Cashback
+cashback reward 175,income,Cashback
+gift money received 3000,income,Gift
+birthday gift money 5000,income,Gift
+received gift from friend 2000,income,Gift
+got money as gift 4000,income,Gift
+rakhi gift money 1500,income,Gift
+wedding gift received 10000,income,Gift
+refund received 1200,income,Refund
+got refund from amazon 800,income,Refund
+order refund credited 600,income,Refund
+return refund received 900,income,Refund
+money refunded 1100,income,Refund
+refund from flipkart 750,income,Refund
+paid the house rent 15000,expense,Rent
+rent payment done 12000,expense,Rent
+paid apartment rent 18000,expense,Rent
+monthly rent paid 14000,expense,Rent
+gave rent to landlord 16000,expense,Rent
+house rent paid 13000,expense,Rent
+paid room rent 8000,expense,Rent
+rent transferred to owner 20000,expense,Rent
+paid flat rent 22000,expense,Rent
+rent due paid 11000,expense,Rent
+paid electricity bill 3000,expense,Bills
+paid water bill 1200,expense,Bills
+recharged internet plan 999,expense,Bills
+electricity bill payment 2500,expense,Bills
+paid gas bill 800,expense,Bills
+internet bill paid 1500,expense,Bills
+phone bill paid 600,expense,Bills
+broadband bill payment 1200,expense,Bills
+utility bill paid 3500,expense,Bills
+wifi bill paid 999,expense,Bills
+dth recharge done 500,expense,Bills
+ordered pizza 450,expense,Food
+went for restaurant dinner 1200,expense,Food
+spent money on groceries 2500,expense,Food
+bought vegetables 300,expense,Food
+food order zomato 600,expense,Food
+swiggy food order 450,expense,Food
+ordered biryani 350,expense,Food
+grocery shopping 1800,expense,Food
+lunch at restaurant 800,expense,Food
+dinner with friends 1500,expense,Food
+breakfast outside 200,expense,Food
+ordered from zomato 550,expense,Food
+swiggy order 400,expense,Food
+dominos order 500,expense,Food
+mcdonalds food 350,expense,Food
+kfc meal 400,expense,Food
+coffee at cafe 250,expense,Food
+starbucks coffee 350,expense,Food
+chai and snacks 100,expense,Food
+bought fruits 400,expense,Food
+milk and dairy 300,expense,Food
+uber ride 350,expense,Transport
+paid uber 300,expense,Transport
+uber 500,expense,Transport
+took uber cab 400,expense,Transport
+uber trip 250,expense,Transport
+booked uber ride 280,expense,Transport
+ola cab ride 320,expense,Transport
+ola ride 270,expense,Transport
+ola cab 290,expense,Transport
+auto ride 150,expense,Transport
+rickshaw fare 100,expense,Transport
+cab booking 450,expense,Transport
+rapido ride 120,expense,Transport
+metro card recharge 500,expense,Transport
+bus ticket 80,expense,Transport
+local bus fare 50,expense,Transport
+train ticket 800,expense,Transport
+filled petrol 2000,expense,Transport
+petrol filled 1800,expense,Transport
+fuel charges 1500,expense,Transport
+petrol pump 2200,expense,Transport
+diesel filled 2500,expense,Transport
+cng filled 800,expense,Transport
+bike petrol 1000,expense,Transport
+car fuel 2500,expense,Transport
+parking charges 100,expense,Transport
+toll tax paid 200,expense,Transport
+watched movie in theatre 600,expense,Entertainment
+paid netflix subscription 799,expense,Entertainment
+movie tickets 600,expense,Entertainment
+netflix subscription 499,expense,Entertainment
+amazon prime subscription 299,expense,Entertainment
+hotstar subscription 899,expense,Entertainment
+spotify premium 119,expense,Entertainment
+youtube premium 189,expense,Entertainment
+disney plus subscription 499,expense,Entertainment
+concert tickets 2000,expense,Entertainment
+event tickets 1500,expense,Entertainment
+amusement park entry 800,expense,Entertainment
+gaming recharge 500,expense,Entertainment
+steam game purchase 1200,expense,Entertainment
+online game purchase 800,expense,Entertainment
+shopping on amazon 5000,expense,Shopping
+bought clothes 3500,expense,Shopping
+myntra shopping 2500,expense,Shopping
+flipkart order 3000,expense,Shopping
+online shopping 4000,expense,Shopping
+bought shoes 2000,expense,Shopping
+shirt purchased 1200,expense,Shopping
+jeans bought 2500,expense,Shopping
+dress purchased 1800,expense,Shopping
+meesho order 800,expense,Shopping
+ajio shopping 3200,expense,Shopping
+mobile recharge done 399,expense,Recharge
+recharge done 199,expense,Recharge
+prepaid recharge 299,expense,Recharge
+phone recharge 499,expense,Recharge
+sim recharge 399,expense,Recharge
+jio recharge 239,expense,Recharge
+airtel recharge 299,expense,Recharge
+vi recharge 199,expense,Recharge
+doctor consultation fee 1500,expense,Medical
+purchased medicines 800,expense,Medical
+hospital bill paid 5000,expense,Medical
+pharmacy bill 600,expense,Medical
+medical checkup 2000,expense,Medical
+lab test charges 1200,expense,Medical
+doctor visit fee 1000,expense,Medical
+bought medicines 700,expense,Medical
+dental checkup 2500,expense,Medical
+eye checkup 1800,expense,Medical
+health insurance premium 3000,expense,Medical
+gym membership payment 2000,expense,Fitness
+gym fees paid 1500,expense,Fitness
+fitness subscription 2500,expense,Fitness
+yoga class fees 1200,expense,Fitness
+cult fit subscription 2000,expense,Fitness
+gym monthly fees 1800,expense,Fitness
+fitness membership 2200,expense,Fitness
+paid college fees 25000,expense,Education
+school fees paid 15000,expense,Education
+tuition fees 8000,expense,Education
+course fee paid 12000,expense,Education
+online course purchase 3000,expense,Education
+udemy course 1500,expense,Education
+coaching fees 10000,expense,Education
+exam fee paid 2000,expense,Education
+book purchased 500,expense,Education
+stationery bought 300,expense,Education
+education fee 20000,expense,Education
+paid home loan emi 25000,expense,EMI
+car loan emi paid 12000,expense,EMI
+personal loan emi 8000,expense,EMI
+emi deducted 15000,expense,EMI
+loan repayment 10000,expense,EMI
+credit card bill paid 12000,expense,EMI
+emi payment done 9000,expense,EMI
+transferred to savings 10000,expense,Investment
+mutual fund sip 5000,expense,Investment
+invested in stocks 8000,expense,Investment
+bought shares 12000,expense,Investment
+invested in mutual fund 6000,expense,Investment
+fd deposit 20000,expense,Investment
+rd monthly deposit 3000,expense,Investment
+haircut 200,expense,Personal Care
+salon visit 500,expense,Personal Care
+parlour charges 800,expense,Personal Care
+spa charges 1500,expense,Personal Care
+grooming products 600,expense,Personal Care
+face wash bought 250,expense,Personal Care
+shampoo purchased 400,expense,Personal Care
+booked flight ticket 8000,expense,Travel
+hotel booking 5000,expense,Travel
+travel booking 12000,expense,Travel
+trip expenses 15000,expense,Travel
+holiday booking 20000,expense,Travel
+vacation expenses 18000,expense,Travel
+airbnb booking 7000,expense,Travel
+bus booking for trip 600,expense,Travel
+train booking for travel 1200,expense,Travel
+flight booked 9000,expense,Travel
+electricity bill paid 2200,expense,Bills
+paid subscription 499,expense,Subscription
+app subscription 299,expense,Subscription
+software subscription 999,expense,Subscription
+paid for app 199,expense,Subscription
+annual subscription 1200,expense,Subscription
+freelance payment received 12000,income,Freelance
+client sent payment 25000,income,Freelance
+freelance project done 18000,income,Freelance
+received freelance money 15000,income,Freelance
+client paid for work 30000,income,Freelance
+freelance work payment 22000,income,Freelance
+got paid for freelance 14000,income,Freelance
+client transferred project fee 20000,income,Freelance
+freelance income 16000,income,Freelance
+upwork payment received 11000,income,Freelance
+fiverr earnings 8000,income,Freelance
+project payment received 19000,income,Freelance
+design work payment 13000,income,Freelance
+coding project payment 24000,income,Freelance
+content writing payment 9000,income,Freelance
+bonus credited 8000,income,Bonus
+received bonus from office 10000,income,Bonus
+performance bonus paid 15000,income,Bonus
+festival bonus received 12000,income,Bonus
+annual bonus credited 20000,income,Bonus
+diwali bonus received 9000,income,Bonus
+bonus transferred by company 11000,income,Bonus
+holi bonus received 7000,income,Bonus
+year end bonus 25000,income,Bonus
+quarterly bonus credited 14000,income,Bonus
+retention bonus 18000,income,Bonus
+youtube income received 10000,income,Passive Income
+passive income credited 5000,income,Passive Income
+rental income received 20000,income,Passive Income
+blog income credited 3000,income,Passive Income
+affiliate income 4000,income,Passive Income
+ad revenue received 6000,income,Passive Income
+adsense income 5500,income,Passive Income
+royalty income received 8000,income,Passive Income
+interest income from fd 3500,income,Passive Income
+earned stock profit 7000,income,Investment
+received stock dividend 3000,income,Investment
+mutual fund returns 8000,income,Investment
+investment returns credited 12000,income,Investment
+stock market profit 9000,income,Investment
+sip returns received 5000,income,Investment
+shares sold profit 14000,income,Investment
+nifty profit booked 11000,income,Investment
+sensex gains credited 16000,income,Investment
+crypto profit received 20000,income,Investment
+received cashback 500,income,Cashback
+cashback credited to account 300,income,Cashback
+got cashback on purchase 200,income,Cashback
+credit card cashback 450,income,Cashback
+amazon cashback received 150,income,Cashback
+paytm cashback credited 100,income,Cashback
+cashback on shopping 250,income,Cashback
+cashback reward 175,income,Cashback
+phonepe cashback 120,income,Cashback
+gpay cashback received 90,income,Cashback
+cashback from bank 400,income,Cashback
+gift money received 3000,income,Gift
+birthday gift money 5000,income,Gift
+received gift from friend 2000,income,Gift
+got money as gift 4000,income,Gift
+rakhi gift money 1500,income,Gift
+wedding gift received 10000,income,Gift
+anniversary gift money 3500,income,Gift
+diwali gift money received 2500,income,Gift
+christmas gift received 3000,income,Gift
+new year gift money 2000,income,Gift
+mom gave money 5000,income,Family
+dad sent money 8000,income,Family
+money received from mother 4000,income,Family
+father transferred money 10000,income,Family
+mom transferred 6000,income,Family
+dad gave pocket money 3000,income,Family
+received money from parents 7000,income,Family
+parents sent money 9000,income,Family
+mother credited money 5500,income,Family
+papa sent money 8500,income,Family
+brother sent money 3000,income,Family
+sister transferred money 2500,income,Family
+received money from brother 4000,income,Family
+bhai ne paisa bheja 3500,income,Family
+didi sent money 2000,income,Family
+elder brother gave money 5000,income,Family
+younger sister transferred 1500,income,Family
+sibling sent money 3000,income,Family
+brother transferred amount 4500,income,Family
+received from bro 2000,income,Family
+friend sent money 1500,income,Family
+friend transferred amount 2000,income,Family
+money received from friend 3000,income,Family
+buddy sent cash 1000,income,Family
+friend paid back 2500,income,Family
+money from classmate 500,income,Family
+roommate gave money 1200,income,Family
+colleague sent money 800,income,Family
+money from yaar 1000,income,Family
+dost ne bheja 1500,income,Family
+refund received 1200,income,Refund
+got refund from amazon 800,income,Refund
+order refund credited 600,income,Refund
+return refund received 900,income,Refund
+money refunded 1100,income,Refund
+refund from flipkart 750,income,Refund
+product return refund 650,income,Refund
+refund from zomato 300,income,Refund
+swiggy refund credited 250,income,Refund
+refund for cancelled order 500,income,Refund
+got my money back 1000,income,Money Back
+friend returned money 2000,income,Money Back
+money returned by friend 1500,income,Money Back
+got back money i lent 3000,income,Money Back
+recovered money from friend 2500,income,Money Back
+person returned loan 5000,income,Money Back
+lent money returned 4000,income,Money Back
+bhai ne wapas kiya 2000,income,Money Back
+friend paid back old debt 3500,income,Money Back
+got back old dues 1800,income,Money Back
+someone returned my money 2200,income,Money Back
+colleague returned money 1600,income,Money Back
+classmate paid back 1200,income,Money Back
+neighbour returned cash 800,income,Money Back
+recovered dues from friend 3000,income,Money Back
+paid the house rent 15000,expense,Rent
+rent payment done 12000,expense,Rent
+paid apartment rent 18000,expense,Rent
+monthly rent paid 14000,expense,Rent
+gave rent to landlord 16000,expense,Rent
+house rent paid 13000,expense,Rent
+paid room rent 8000,expense,Rent
+rent transferred to owner 20000,expense,Rent
+paid flat rent 22000,expense,Rent
+rent due paid 11000,expense,Rent
+pg rent paid 9000,expense,Rent
+hostel rent payment 7000,expense,Rent
+paid electricity bill 3000,expense,Bills
+paid water bill 1200,expense,Bills
+recharged internet plan 999,expense,Bills
+electricity bill payment 2500,expense,Bills
+paid gas bill 800,expense,Bills
+internet bill paid 1500,expense,Bills
+phone bill paid 600,expense,Bills
+broadband bill payment 1200,expense,Bills
+utility bill paid 3500,expense,Bills
+wifi bill paid 999,expense,Bills
+dth recharge done 500,expense,Bills
+maintenance charges paid 2000,expense,Bills
+society maintenance 3000,expense,Bills
+ordered pizza 450,expense,Food
+went for restaurant dinner 1200,expense,Food
+spent money on groceries 2500,expense,Food
+bought vegetables 300,expense,Food
+food order zomato 600,expense,Food
+swiggy food order 450,expense,Food
+ordered biryani 350,expense,Food
+grocery shopping 1800,expense,Food
+lunch at restaurant 800,expense,Food
+dinner with friends 1500,expense,Food
+breakfast outside 200,expense,Food
+ordered from zomato 550,expense,Food
+swiggy order 400,expense,Food
+dominos order 500,expense,Food
+mcdonalds food 350,expense,Food
+kfc meal 400,expense,Food
+coffee at cafe 250,expense,Food
+starbucks coffee 350,expense,Food
+chai and snacks 100,expense,Food
+bought fruits 400,expense,Food
+milk and dairy 300,expense,Food
+blinkit grocery order 900,expense,Food
+zepto order 700,expense,Food
+instamart grocery 1100,expense,Food
+dunzo grocery 850,expense,Food
+burger king meal 350,expense,Food
+subway sandwich 300,expense,Food
+uber ride 350,expense,Transport
+paid uber 300,expense,Transport
+uber 500,expense,Transport
+took uber cab 400,expense,Transport
+uber trip 250,expense,Transport
+booked uber ride 280,expense,Transport
+ola cab ride 320,expense,Transport
+ola ride 270,expense,Transport
+ola cab 290,expense,Transport
+auto ride 150,expense,Transport
+rickshaw fare 100,expense,Transport
+cab booking 450,expense,Transport
+rapido ride 120,expense,Transport
+metro card recharge 500,expense,Transport
+bus ticket 80,expense,Transport
+local bus fare 50,expense,Transport
+train ticket 800,expense,Transport
+filled petrol 2000,expense,Transport
+petrol filled 1800,expense,Transport
+fuel charges 1500,expense,Transport
+petrol pump 2200,expense,Transport
+diesel filled 2500,expense,Transport
+cng filled 800,expense,Transport
+bike petrol 1000,expense,Transport
+car fuel 2500,expense,Transport
+parking charges 100,expense,Transport
+toll tax paid 200,expense,Transport
+indrive cab 380,expense,Transport
+uber auto 130,expense,Transport
+ola auto 110,expense,Transport
+watched movie in theatre 600,expense,Entertainment
+paid netflix subscription 799,expense,Entertainment
+movie tickets 600,expense,Entertainment
+netflix subscription 499,expense,Entertainment
+amazon prime subscription 299,expense,Entertainment
+hotstar subscription 899,expense,Entertainment
+spotify premium 119,expense,Entertainment
+youtube premium 189,expense,Entertainment
+disney plus subscription 499,expense,Entertainment
+concert tickets 2000,expense,Entertainment
+event tickets 1500,expense,Entertainment
+amusement park entry 800,expense,Entertainment
+gaming recharge 500,expense,Entertainment
+steam game purchase 1200,expense,Entertainment
+online game purchase 800,expense,Entertainment
+apple music subscription 99,expense,Entertainment
+hungama subscription 299,expense,Entertainment
+zee5 subscription 399,expense,Entertainment
+shopping on amazon 5000,expense,Shopping
+bought clothes 3500,expense,Shopping
+myntra shopping 2500,expense,Shopping
+flipkart order 3000,expense,Shopping
+online shopping 4000,expense,Shopping
+bought shoes 2000,expense,Shopping
+shirt purchased 1200,expense,Shopping
+jeans bought 2500,expense,Shopping
+dress purchased 1800,expense,Shopping
+meesho order 800,expense,Shopping
+ajio shopping 3200,expense,Shopping
+nykaa order 1500,expense,Shopping
+purplle order 900,expense,Shopping
+watch purchased 4000,expense,Shopping
+sunglasses bought 1500,expense,Shopping
+bag purchased 2200,expense,Shopping
+mobile recharge done 399,expense,Recharge
+recharge done 199,expense,Recharge
+prepaid recharge 299,expense,Recharge
+phone recharge 499,expense,Recharge
+sim recharge 399,expense,Recharge
+jio recharge 239,expense,Recharge
+airtel recharge 299,expense,Recharge
+vi recharge 199,expense,Recharge
+bsnl recharge 149,expense,Recharge
+doctor consultation fee 1500,expense,Medical
+purchased medicines 800,expense,Medical
+hospital bill paid 5000,expense,Medical
+pharmacy bill 600,expense,Medical
+medical checkup 2000,expense,Medical
+lab test charges 1200,expense,Medical
+doctor visit fee 1000,expense,Medical
+bought medicines 700,expense,Medical
+dental checkup 2500,expense,Medical
+eye checkup 1800,expense,Medical
+health insurance premium 3000,expense,Medical
+blood test charges 900,expense,Medical
+xray charges 1500,expense,Medical
+physiotherapy session 1200,expense,Medical
+gym membership payment 2000,expense,Fitness
+gym fees paid 1500,expense,Fitness
+fitness subscription 2500,expense,Fitness
+yoga class fees 1200,expense,Fitness
+cult fit subscription 2000,expense,Fitness
+gym monthly fees 1800,expense,Fitness
+fitness membership 2200,expense,Fitness
+zumba class fees 1000,expense,Fitness
+swimming pool charges 1500,expense,Fitness
+sports club fees 2500,expense,Fitness
+paid college fees 25000,expense,Education
+school fees paid 15000,expense,Education
+tuition fees 8000,expense,Education
+course fee paid 12000,expense,Education
+online course purchase 3000,expense,Education
+udemy course 1500,expense,Education
+coaching fees 10000,expense,Education
+exam fee paid 2000,expense,Education
+book purchased 500,expense,Education
+stationery bought 300,expense,Education
+education fee 20000,expense,Education
+coursera subscription 2000,expense,Education
+skillshare subscription 1500,expense,Education
+certification fee 5000,expense,Education
+paid home loan emi 25000,expense,EMI
+car loan emi paid 12000,expense,EMI
+personal loan emi 8000,expense,EMI
+emi deducted 15000,expense,EMI
+loan repayment 10000,expense,EMI
+credit card bill paid 12000,expense,EMI
+emi payment done 9000,expense,EMI
+bike loan emi 6000,expense,EMI
+education loan emi 7000,expense,EMI
+transferred to savings 10000,expense,Investment
+mutual fund sip 5000,expense,Investment
+invested in stocks 8000,expense,Investment
+bought shares 12000,expense,Investment
+invested in mutual fund 6000,expense,Investment
+fd deposit 20000,expense,Investment
+rd monthly deposit 3000,expense,Investment
+ppf deposit 5000,expense,Investment
+nps contribution 3000,expense,Investment
+gold purchased 15000,expense,Investment
+haircut 200,expense,Personal Care
+salon visit 500,expense,Personal Care
+parlour charges 800,expense,Personal Care
+spa charges 1500,expense,Personal Care
+grooming products 600,expense,Personal Care
+face wash bought 250,expense,Personal Care
+shampoo purchased 400,expense,Personal Care
+skincare products 900,expense,Personal Care
+beard trimming 150,expense,Personal Care
+manicure pedicure 700,expense,Personal Care
+booked flight ticket 8000,expense,Travel
+hotel booking 5000,expense,Travel
+travel booking 12000,expense,Travel
+trip expenses 15000,expense,Travel
+holiday booking 20000,expense,Travel
+vacation expenses 18000,expense,Travel
+airbnb booking 7000,expense,Travel
+bus booking for trip 600,expense,Travel
+train booking for travel 1200,expense,Travel
+flight booked 9000,expense,Travel
+travel insurance 2000,expense,Travel
+visa fee paid 5000,expense,Travel
+passport charges 2000,expense,Travel
+electricity bill paid 2200,expense,Bills
+paid subscription 499,expense,Subscription
+app subscription 299,expense,Subscription
+software subscription 999,expense,Subscription
+paid for app 199,expense,Subscription
+annual subscription 1200,expense,Subscription
+birthday party treat 3000,expense,Treat
+birthday celebration expenses 5000,expense,Treat
+treated friends on birthday 2500,expense,Treat
+gave birthday treat 1800,expense,Treat
+birthday dinner party 4000,expense,Treat
+birthday lunch treat 2000,expense,Treat
+paid for friends birthday treat 3500,expense,Treat
+anniversary dinner treat 6000,expense,Treat
+anniversary celebration 5000,expense,Treat
+anniversary party expenses 8000,expense,Treat
+farewell party expenses 4000,expense,Treat
+farewell treat for colleague 3000,expense,Treat
+office farewell dinner 5000,expense,Treat
+gave farewell treat 2500,expense,Treat
+promotion celebration treat 4500,expense,Treat
+new job treat to friends 3000,expense,Treat
+success party expenses 6000,expense,Treat
+exam pass treat 2000,expense,Treat
+result celebration dinner 3000,expense,Treat
+fresher party expenses 2500,expense,Treat
+housewarming party 8000,expense,Treat
+housewarming expenses 6000,expense,Treat
+engagement party 15000,expense,Treat
+baby shower expenses 10000,expense,Treat
+graduation party 7000,expense,Treat
+diwali party expenses 5000,expense,Treat
+new year party expenses 8000,expense,Treat
+christmas party treat 4000,expense,Treat
+festival celebration dinner 3500,expense,Treat
+get together expenses 4500,expense,Treat
+friends get together dinner 5000,expense,Treat
+lent money to friend 2000,expense,Lent
+gave money to friend 3000,expense,Lent
+lent to brother 5000,expense,Lent
+gave loan to colleague 4000,expense,Lent
+lent money to roommate 1500,expense,Lent
+gave money to sister 2500,expense,Lent
+sent money to friend 1000,expense,Lent
+lent cash to classmate 800,expense,Lent
+gave money to neighbour 1200,expense,Lent
+lent money to bhai 3500,expense,Lent
+sent money to mom 5000,expense,Family Support
+transferred money to dad 8000,expense,Family Support
+sent money to parents 10000,expense,Family Support
+gave money to mother 6000,expense,Family Support
+transferred to father 7000,expense,Family Support
+sent money home 9000,expense,Family Support
+gave money to sister 3000,expense,Family Support
+sent money to brother 4000,expense,Family Support
+family expense transfer 5000,expense,Family Support
+home expenses sent 6000,expense,Family Support
