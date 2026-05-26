@@ -10,7 +10,7 @@ export const UserProvider = ({ children }) => {
 
   // Load user from token on app start
   useEffect(() => {
-    const token = localStorage.getItem("token");
+    const token = sessionStorage.getItem("token");
     if (token) {
       fetchUser();
     } else {
@@ -23,19 +23,19 @@ export const UserProvider = ({ children }) => {
       const res = await axiosInstance.get(API_PATHS.AUTH.GET_USER);
       setUser(res.data);
     } catch {
-      localStorage.removeItem("token");
+      sessionStorage.removeItem("token");
     } finally {
       setLoading(false);
     }
   };
 
   const login = (token, userData) => {
-    localStorage.setItem("token", token);
+    sessionStorage.setItem("token", token);
     setUser(userData);
   };
 
   const logout = () => {
-    localStorage.removeItem("token");
+    sessionStorage.removeItem("token");
     setUser(null);
   };
 
