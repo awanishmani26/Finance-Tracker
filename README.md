@@ -1,6 +1,6 @@
 # 💰 Expense Tracker
 
-A **MERN Stack Finance Management Web Application** with **NLP integration** for smart expense tracking.
+A **MERN Stack Finance Management Web Application** with **AI integration** for smart expense tracking.
 
 ## 🚀 Features
 - Full-stack personal finance tracker built with **MERN (MongoDB, Express.js, React.js, Node.js)**.
