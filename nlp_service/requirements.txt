@@ -1,0 +1,9 @@
+Flask
+gunicorn
+joblib
+nltk
+scikit-learn
+pandas
+numpy
+gensim
+scipy
