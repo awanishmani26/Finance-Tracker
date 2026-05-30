@@ -26,8 +26,6 @@ venv/
 env/
 ENV/
 
-# NLP MODEL FILES
-*.pkl
 
 # JUPYTER NOTEBOOK
 .ipynb_checkpoints/
