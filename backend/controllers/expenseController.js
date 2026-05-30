@@ -1,6 +1,6 @@
 const Expense = require("../models/Expense");
 const xlsx = require("xlsx");
-
+const axios = require("axios");
 // @desc    Add expense
 // @route   POST /api/v1/expense/add
 // @access  Private
@@ -11,6 +11,21 @@ const addExpense = async (req, res) => {
     return res
       .status(400)
       .json({ message: "Category, amount and date are required" });
+  }
+   if (text) {
+    try {
+      const response = await axios.post(
+        "https://expense-nlp.onrender.com/predict",
+        {
+          text,
+        }
+      );
+
+      category = response.data.category;
+      icon = response.data.icon;
+    } catch (err) {
+      console.log("NLP Error:", err.message);
+    }
   }
 
   try {

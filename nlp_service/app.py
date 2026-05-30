@@ -114,7 +114,23 @@ def predict():
             "error": str(e)
         }), 500
 
+    app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "NLP Service Running Successfully"
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    data = request.get_json()
+
+    text = data["text"]
+
+    # prediction logic
+
+    return jsonify({
+        "category": "Food"
+    })
 # ─────────────────────────────────────────────────────────────
 # RUN SERVER
 # ─────────────────────────────────────────────────────────────
