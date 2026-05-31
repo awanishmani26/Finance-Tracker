@@ -7,7 +7,16 @@ const aiRoutes = require("./routes/aiRoutes");
 
 dotenv.config();
 connectDB();
-
+// Ping NLP service every 10 minutes to prevent sleep
+setInterval(async () => {
+  try {
+    const axios = require("axios");
+    await axios.get(process.env.AI_SERVICE_URL);
+    console.log("NLP service pinged ✅");
+  } catch (e) {
+    console.log("NLP ping failed:", e.message);
+  }
+}, 10 * 60 * 1000);
 const app = express();
 
 // Middleware
