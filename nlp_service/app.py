@@ -4,24 +4,15 @@ import re
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-# ─────────────────────────────────────────────────────────────
-# DOWNLOAD NLTK DATA (RUN FIRST TIME ONLY)
-# ─────────────────────────────────────────────────────────────
-# nltk.download('wordnet')
-# nltk.download('omw-1.4')
-
 app = Flask(__name__)
 
-# ─────────────────────────────────────────────────────────────
 # LOAD TRAINED ML MODEL
-# ─────────────────────────────────────────────────────────────
+
 model = joblib.load("model.pkl")
 
 lemmatizer = WordNetLemmatizer()
 
-# ─────────────────────────────────────────────────────────────
 # ICON MAP
-# ─────────────────────────────────────────────────────────────
 icon_map = {
     "Salary": "💰",
     "Freelance": "🧑‍💻",
@@ -52,9 +43,8 @@ icon_map = {
     "Family Support": "❤️",
 }
 
-# ─────────────────────────────────────────────────────────────
 # NLP PREPROCESSING
-# ─────────────────────────────────────────────────────────────
+
 def preprocess(text):
     text = text.lower()
 
@@ -69,10 +59,7 @@ def preprocess(text):
 
     return " ".join(tokens)
 
-
-# ─────────────────────────────────────────────────────────────
 # PREDICTION API
-# ─────────────────────────────────────────────────────────────
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
@@ -114,10 +101,7 @@ def predict():
             "error": str(e)
         }), 500
 
-
-# ─────────────────────────────────────────────────────────────
-# RUN SERVER
-# ─────────────────────────────────────────────────────────────
+# Run server
 if __name__ == "__main__":
     app.run(port=8000, debug=True)
 
