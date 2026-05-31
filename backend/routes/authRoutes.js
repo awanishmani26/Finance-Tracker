@@ -66,6 +66,7 @@ router.post("/login", loginUser);
 
 router.get("/getUser", protect, getUserInfo);
 
+
 const handleProfileUpload = async (req, res) => {
   try {
     if (!req.file) {
@@ -75,7 +76,8 @@ const handleProfileUpload = async (req, res) => {
     if (!user) {
       return res.status(404).json({ message: "User not found" });
     }
-    const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
+    // Cloudinary gives us the URL directly in req.file.path
+    const imageUrl = req.file.path;
     user.profileImageUrl = imageUrl;
     await user.save();
     res.json({
