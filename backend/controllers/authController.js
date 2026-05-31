@@ -121,8 +121,9 @@ const uploadProfileImage = async (req, res) => {
       return res.status(400).json({ message: "No image file provided" });
     }
 
-    const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
-
+    //const imageUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
+    const baseUrl = process.env.BASE_URL || `${req.protocol}://${req.get("host")}`;
+const imageUrl = `${baseUrl}/uploads/${req.file.filename}`;
     // Update user profile image
     await User.findByIdAndUpdate(req.user._id, {
       profileImageUrl: imageUrl,
