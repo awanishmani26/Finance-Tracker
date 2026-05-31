@@ -10,10 +10,14 @@ exports.processTransaction = async (req, res) => {
 
     const { text } = req.body;
 
+    // const response = await axios.post(
+    //   "http://127.0.0.1:8000/predict",
+    //   { text }
+    // );
     const response = await axios.post(
-      "http://127.0.0.1:8000/predict",
-      { text }
-    );
+  `${process.env.AI_SERVICE_URL}/predict`,
+  { text }
+);
 
     const aiData = response.data;
 
