@@ -3,7 +3,11 @@ import joblib
 import re
 import nltk
 from nltk.stem import WordNetLemmatizer
-
+import os
+nltk.data.path.append("/opt/render/project/src/nltk_data")
+nltk.download("wordnet", download_dir="/opt/render/project/src/nltk_data", quiet=True)
+nltk.download("omw-1.4", download_dir="/opt/render/project/src/nltk_data", quiet=True)
+nltk.download("punkt", download_dir="/opt/render/project/src/nltk_data", quiet=True)
 app = Flask(__name__)
 
 # LOAD TRAINED ML MODEL
