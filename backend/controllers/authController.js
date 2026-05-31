@@ -65,88 +65,33 @@ const registerUser = async (req, res) => {
 // @desc    Login user
 // @route   POST /api/v1/auth/login
 // @access  Public
-// const loginUser = async (req, res) => {
-//   const { email, password } = req.body;
-
-//   if (!email || !password) {
-//     return res
-//       .status(400)
-//       .json({ message: "Please enter email and password" });
-//   }
-
-//   try {
-//     const user = await User.findOne({ email });
-
-//     if (user && (await bcrypt.compare(password, user.password))) {
-//       res.json({
-//         _id: user._id,
-//         fullName: user.fullName,
-//         email: user.email,
-//         profileImageUrl: user.profileImageUrl,
-//         token: generateToken(user._id),
-//       });
-//     } else {
-//       res.status(401).json({ message: "Invalid email or password" });
-//     }
-//   } catch (error) {
-//     res
-//       .status(500)
-//       .json({ message: "Server error", error: error.message });
-//   }
-// };
 const loginUser = async (req, res) => {
+  const { email, password } = req.body;
+
+  if (!email || !password) {
+    return res
+      .status(400)
+      .json({ message: "Please enter email and password" });
+  }
+
   try {
-    console.log("REQ BODY:", req.body);
-
-    const { email, password } = req.body;
-
-    if (!email || !password) {
-      return res.status(400).json({
-        message: "Please enter email and password",
-      });
-    }
-
     const user = await User.findOne({ email });
 
-    console.log("FOUND USER:", user);
-
-    if (!user) {
-      return res.status(401).json({
-        message: "User not found",
+    if (user && (await bcrypt.compare(password, user.password))) {
+      res.json({
+        _id: user._id,
+        fullName: user.fullName,
+        email: user.email,
+        profileImageUrl: user.profileImageUrl,
+        token: generateToken(user._id),
       });
+    } else {
+      res.status(401).json({ message: "Invalid email or password" });
     }
-
-    console.log("HASHED PASSWORD:", user.password);
-
-    const isMatch = await bcrypt.compare(password, user.password);
-
-    console.log("PASSWORD MATCH:", isMatch);
-
-    if (!isMatch) {
-      return res.status(401).json({
-        message: "Invalid password",
-      });
-    }
-
-    const token = generateToken(user._id);
-
-    console.log("TOKEN GENERATED");
-
-    res.json({
-      _id: user._id,
-      fullName: user.fullName,
-      email: user.email,
-      profileImageUrl: user.profileImageUrl,
-      token,
-    });
-
   } catch (error) {
-    console.error("LOGIN ERROR FULL:", error);
-
-    res.status(500).json({
-      message: error.message,
-      stack: error.stack,
-    });
+    res
+      .status(500)
+      .json({ message: "Server error", error: error.message });
   }
 };
 
