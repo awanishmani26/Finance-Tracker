@@ -60,8 +60,14 @@ const Sidebar = () => {
       <div className="sidebar-profile">
         <div onClick={handleAvatarClick} style={{ cursor: "pointer", position: "relative" }}>
           {avatarSrc ? (
+           // <img src={avatarSrc} alt="profile" className="sidebar-avatar"
+             // style={{ opacity: uploading ? 0.6 : 1 }} />
             <img src={avatarSrc} alt="profile" className="sidebar-avatar"
-              style={{ opacity: uploading ? 0.6 : 1 }} />
+              style={{ opacity: uploading ? 0.6 : 1 }}
+              onError={(e) => {
+                e.target.style.display = 'none';
+              }}
+            />
           ) : (
             <div className="sidebar-avatar-placeholder"><LuUser /></div>
           )}
