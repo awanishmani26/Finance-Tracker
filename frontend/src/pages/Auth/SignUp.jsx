@@ -74,7 +74,7 @@ const SignUp = () => {
   return (
     <div className="auth-page">
       <div className="auth-left">
-        <div className="auth-brand">Expense Tracker</div>
+        <div className="auth-brand">Finance Tracker</div>
         <div className="auth-form-container">
           <h1 className="auth-title">Create an Account</h1>
           <p className="auth-subtitle">
