@@ -55,7 +55,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
 
-      <div className="sidebar-brand">Expense Tracker</div>
+      <div className="sidebar-brand">Finance Tracker</div>
 
       <div className="sidebar-profile">
         <div onClick={handleAvatarClick} style={{ cursor: "pointer", position: "relative" }}>
