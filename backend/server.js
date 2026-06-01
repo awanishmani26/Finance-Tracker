@@ -41,7 +41,7 @@ app.use("/api/v1/ai", aiRoutes);
 
 // Health check
 app.get("/", (req, res) => {
-  res.json({ message: "Expense Tracker API is running! 🚀" });
+  res.json({ message: "Finance Tracker API is running! 🚀" });
 });
 
 const PORT = process.env.PORT || 5000;
