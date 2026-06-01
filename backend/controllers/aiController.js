@@ -16,7 +16,7 @@ exports.processTransaction = async (req, res) => {
     // );
     const response = await axios.post(
   `${process.env.AI_SERVICE_URL}/predict`,
-  { text }
+  { text },
   { timeout: 60000 }
 );
 
